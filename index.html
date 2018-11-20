@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheetmobile.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="stylesheetbigscreen.css" media="screen and (min-width: 1000px)">
+<title>Sweetbot</title>
+</head>
+<body>
+	
+<!-- Top Navigation Menu - mobile -->
+<div class="topnav">
+  <a href="#home" class="active"><img id="logo" src="images/sweetbotlogo.png" width="333" height="73" alt=""/></a>
+  <div id="myLinks">
+	<a href="#" class="underpunkt">Web design</a>
+	<a href="#" class="underpunkt">Internet security</a>
+	<a href="#" class="underpunkt">Branding</a>
+    <a href="#" class="underpunkt">Om os</a>
+    <a href="#" class="underpunkt">Kontakt</a>
+    <a href="#" class="underpunkt">HotBot</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<!-- Top navigation - desktop -->
+<div>
+	<a href="#home" class="active"><img id="logoet" src="images/sweetbotlogo.png" width="333" height="73" alt=""/></a>
+	<ul id="navigation">
+		<li>
+			<a href="#" class="menu" id="hotbotlogo"><img src="images/hotbotlogo.png" alt=""/></a>
+		</li>
+		<li>
+			<a href="#" class="menu">Kontakt</a>
+		</li>
+		<li>
+			<a href="#" class="menu">Om os </a>
+		</li>
+		<li>
+			<a href="#" class="menu">Branding</a>
+		</li>
+		<li>
+			<a href="#" class="menu">internet security</a>
+		</li>
+		<li>
+			<a href="#" class="menu">Web design</a>
+		</li>
+	</ul>
+</div>
+	
+<!-- Photo Grid -->
+<div class="row container">  
+	<div class="column">
+        <img class="menuimg" src="images/web-design.png" width="100%" height="100%" alt="web design"/>
+	</div> 	 
+	<div class="column">
+    	<img class="menuimg" src="images/internet-security.png" width="100%" height="100%" alt="internet security"/>
+	</div> 	 	 
+	<div class="column">
+  		<img class="menuimg" src="images/branding.png" width="100%" height="100%" alt="branding"/>
+	</div>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</body>
+</html>

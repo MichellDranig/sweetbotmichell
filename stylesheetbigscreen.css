@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Media query "indlejret" i dette stylesheet. Låser layotet ved 1500px bredde*/
+
+@media screen and (min-width: 1500px){
+	.container{
+		max-width: 1500px;
+		margin: 0 auto;
+	}
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Navigation og logo fjernes */
+#logo {
+	display: none;
+}
+.topnav a.icon {
+  display: none;	
+}
+
+/* Navigation til desktop tilføjes*/ 
+#logoet {
+	display: inline;
+	margin: 26px 26px 26px 0px;
+	padding: 0px;
+}
+#navigation {
+	display: inline;
+	margin-right: 2%;
+	margin-top: 26px;
+	padding-top: 2%;
+	width: 70%;
+	flex-wrap: wrap;
+	float: right;
+}
+#navigation li {
+	list-style: none;
+	display: inline; 
+}
+#navigation a {
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+	font-size: 1.3em;
+	margin: 0 1%;
+	float: right;
+}
+
+#hotbotlogo img {
+	width: 12%;
+	height: auto;
+}
+
+/* Billeder */
+.column {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 1%;
+}
+
+.column .menuimg {
+    margin-top: 10px;
+    vertical-align: middle;
+}
